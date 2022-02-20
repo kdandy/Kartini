@@ -18,7 +18,7 @@ git clone https://github.com/kdandy/kartini
 
 ## Demo and Documentation
 
-- Open the [demo page](http://kartini.kdandy.com)
+- Open the [demo page](https://kartini.netlify.app/)
 - Open the [source code](http://github.com/kdandy/kartini)
 
 ### Note
