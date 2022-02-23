@@ -32,7 +32,11 @@ Code released under the MIT license.
 
 ## About the Author
 
-kartini is created by <a href="https://kdandy.com">jaden</a>.
+Responsive Kartini Page is created by <a href="https://kdandy.com">jaden</a>.
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/kdandy/kartini/issues/new) here on GitHub.
 
 ## Donate
 
