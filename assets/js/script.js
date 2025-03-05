@@ -30,7 +30,11 @@ btnPrev.addEventListener('click', () => {
 for (let i = 0; i < btnGaleri.length; i++) {
   btnGaleri[i].addEventListener('click', (e) => {
     const galeriShow = document.querySelector('[data-galeri="show"]');
-    const indexBtn = e.target.getAttribute('data-galeri-index');
+    let indexBtn = parseInt(e.target.getAttribute('data-galeri-index'), 10);
+    if (isNaN(indexBtn) || indexBtn < 1 || indexBtn > 6) {
+      console.error('Invalid index:', indexBtn);
+      return;
+    }
     galeriShow.setAttribute('src', `public/img/Kartini ${indexBtn}.png`);
     galeriShow.setAttribute('data-index-show', indexBtn);
     for (let i = 0; i < btnGaleri.length; i++) {
